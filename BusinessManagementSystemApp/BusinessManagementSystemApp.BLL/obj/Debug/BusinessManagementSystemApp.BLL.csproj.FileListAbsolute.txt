@@ -1,0 +1,17 @@
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.BLL.dll
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.BLL.pdb
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.Models.dll
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.Repository.dll
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.DatabaseContext.dll
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\EntityFramework.dll
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.Models.pdb
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.Repository.pdb
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.Repository.dll.config
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.DatabaseContext.pdb
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.DatabaseContext.dll.config
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\EntityFramework.xml
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.csprojAssemblyReference.cache
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.csproj.CoreCompileInputs.cache
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.csproj.CopyComplete
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.dll
+C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.pdb
