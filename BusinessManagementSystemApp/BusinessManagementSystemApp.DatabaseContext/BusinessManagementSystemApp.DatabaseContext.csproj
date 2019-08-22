@@ -53,12 +53,19 @@
     <Compile Include="Migrations\201908211445372_initial.Designer.cs">
       <DependentUpon>201908211445372_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201908220301087_Supplier_Added.cs" />
+    <Compile Include="Migrations\201908220301087_Supplier_Added.Designer.cs">
+      <DependentUpon>201908220301087_Supplier_Added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201908211445372_initial.resx">
       <DependentUpon>201908211445372_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908220301087_Supplier_Added.resx">
+      <DependentUpon>201908220301087_Supplier_Added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -15,4 +15,18 @@ select,
 textarea {
     max-width: 280px;
 }
+.table {
+    font-family: arial, sans-serif;
+    margin: auto;
+    width: 50%;
+}
 
+.td, th {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #dddddd
+}
+
+.tr:nth-child(even) {
+    background-color: #dddddd;
+}

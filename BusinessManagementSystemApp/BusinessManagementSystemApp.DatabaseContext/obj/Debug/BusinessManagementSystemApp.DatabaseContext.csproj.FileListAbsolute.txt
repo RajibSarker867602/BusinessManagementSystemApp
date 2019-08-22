@@ -14,3 +14,20 @@ C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystem
 C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.pdb
 C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.Migrations.initial.resources
 C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.csproj.GenerateResource.cache
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\BusinessManagementSystemApp.DatabaseContext.dll.config
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\BusinessManagementSystemApp.DatabaseContext.dll
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\BusinessManagementSystemApp.DatabaseContext.pdb
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\BusinessManagementSystemApp.Models.dll
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\EntityFramework.dll
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\EntityFramework.SqlServer.dll
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\BusinessManagementSystemApp.Models.pdb
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\EntityFramework.xml
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\bin\Debug\EntityFramework.SqlServer.xml
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.csprojAssemblyReference.cache
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.Migrations.initial.resources
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.csproj.GenerateResource.cache
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.csproj.CoreCompileInputs.cache
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.csproj.CopyComplete
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.dll
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.pdb
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.Migrations.Supplier_Added.resources

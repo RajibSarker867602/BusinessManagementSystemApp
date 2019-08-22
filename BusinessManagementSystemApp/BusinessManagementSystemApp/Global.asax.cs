@@ -1,4 +1,7 @@
-﻿using System;
+﻿using AutoMapper;
+using BusinessManagementSystemApp.Models;
+using BusinessManagementSystemApp.Models.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,6 +16,12 @@ namespace BusinessManagementSystemApp
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            Mapper.Initialize(config: cfg =>
+            {
+                cfg.CreateMap<SupplierVM, Supplier>();
+                cfg.CreateMap<Supplier, SupplierVM>();
+
+            });
         }
     }
 }

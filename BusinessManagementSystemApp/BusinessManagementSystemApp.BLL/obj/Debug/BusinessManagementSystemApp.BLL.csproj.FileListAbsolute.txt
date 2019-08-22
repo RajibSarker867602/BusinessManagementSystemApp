@@ -15,3 +15,20 @@ C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystem
 C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.csproj.CopyComplete
 C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.dll
 C:\Users\rajib\source\repos\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.pdb
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.BLL.dll
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.BLL.pdb
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.Models.dll
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.Repository.dll
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.DatabaseContext.dll
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\EntityFramework.dll
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.Models.pdb
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.Repository.pdb
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.Repository.dll.config
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.DatabaseContext.pdb
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\BusinessManagementSystemApp.DatabaseContext.dll.config
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\bin\Debug\EntityFramework.xml
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.csprojAssemblyReference.cache
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.csproj.CoreCompileInputs.cache
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.csproj.CopyComplete
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.dll
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.BLL\obj\Debug\BusinessManagementSystemApp.BLL.pdb
