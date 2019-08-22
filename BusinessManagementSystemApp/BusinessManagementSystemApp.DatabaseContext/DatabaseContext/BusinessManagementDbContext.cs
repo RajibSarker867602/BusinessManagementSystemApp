@@ -16,5 +16,13 @@ namespace BusinessManagementSystemApp.DatabaseContext.DatabaseContext
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<CustomerModel> CustomerModels { set; get; }
+        public DbSet<Sale> Sales { set; get; }
+        public DbSet<SalesDetails> SalesDetails { set; get; }
+        public DbSet<Product> Products { set; get; }
+        public DbSet<PurchaseDetails> PurchaseDetails { set; get; }
+        public DbSet<Purchase> Purchases { set; get; }
+
+
     }
 }

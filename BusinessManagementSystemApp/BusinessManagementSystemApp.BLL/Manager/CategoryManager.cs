@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BusinessManagementSystemApp.Models;
 
-namespace BusinessManagementSystemApp.BLL.BLL
+namespace BusinessManagementSystemApp.BLL.Manager
 {
     public class CategoryManager
     {

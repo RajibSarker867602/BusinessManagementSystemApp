@@ -1,7 +1,6 @@
 ﻿@model BusinessManagementSystemApp.Models.SupplierVM
 @{
-    ViewBag.Title = "Add";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/Dashboard.cshtml";
 }
 <html>
 <head>
@@ -109,8 +108,7 @@
         <link href="~/Styles/sweetalert.css" rel="stylesheet" />
         <script>
 
-            $("#Code").keyup(function () {
-                debugger
+            $("#Name").on('click', function () {
                 var supplierCode = $("#Code").val();
 
                 $.ajax({
@@ -120,7 +118,10 @@
                     success: function (response) {
                         if (response == true) {
                             swal("Supplier already exist!");
+                            $('#Save').attr("disabled", true);
                             return;
+                        } else {
+                            $('#Save').attr("disabled", false);
                         }
                     }
                 })
