@@ -21,7 +21,6 @@ namespace BusinessManagementSystemApp.Controllers
         [HttpGet]
         public ActionResult Add()
         {
-
             return View();
         }
 

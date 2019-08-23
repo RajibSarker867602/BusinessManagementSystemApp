@@ -15,6 +15,9 @@ namespace BusinessManagementSystemApp.DatabaseContext.DatabaseContext
             Configuration.LazyLoadingEnabled = false;
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Purchase> Purchases { get; set; }
+        public DbSet<PurchaseDetails> PurchaseDetails { get; set; }
     }
 }

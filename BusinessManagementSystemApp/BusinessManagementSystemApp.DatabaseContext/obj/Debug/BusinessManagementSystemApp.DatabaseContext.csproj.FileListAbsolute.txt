@@ -31,3 +31,4 @@ D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\Business
 D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.dll
 D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.pdb
 D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.Migrations.Supplier_Added.resources
+D:\ASP.NET Work\BITM Course Files\GIT Files\BusinessManagementSystemApp\BusinessManagementSystemApp\BusinessManagementSystemApp.DatabaseContext\obj\Debug\BusinessManagementSystemApp.DatabaseContext.Migrations.ProductAndPurchase_Added.resources

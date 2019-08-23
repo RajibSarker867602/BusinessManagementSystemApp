@@ -44,6 +44,10 @@
   <ItemGroup>
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\CategoryViewModel.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\ProductViewModel.cs" />
+    <Compile Include="Models\Purchase.cs" />
+    <Compile Include="Models\PurchaseDetails.cs" />
     <Compile Include="Models\Supplier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

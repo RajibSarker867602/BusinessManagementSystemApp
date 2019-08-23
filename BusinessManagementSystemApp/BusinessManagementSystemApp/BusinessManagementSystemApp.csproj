@@ -202,6 +202,7 @@
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />
     <Content Include="Scripts\popper.min.js" />
+    <Content Include="Scripts\Project Scripts\PurchaseScript\InsertPurchaseProduct.js" />
     <Content Include="Scripts\skycons.js" />
     <Content Include="Scripts\sweetalert-dev.js" />
     <Content Include="Scripts\SweetAlert.js" />
@@ -225,10 +226,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\PurchaseController.cs" />
     <Compile Include="Controllers\SupplierController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\PurchaseViewModel.cs" />
     <Compile Include="Models\SupplierVM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -257,6 +261,13 @@
     <Content Include="Views\Supplier\Delete.cshtml" />
     <Content Include="Views\Supplier\Edit.cshtml" />
     <Content Include="Views\Supplier\Show.cshtml" />
+    <Content Include="Views\Product\DeleteProduct.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Product\ProductDetails.cshtml" />
+    <Content Include="Views\Product\SaveProduct.cshtml" />
+    <Content Include="Views\Product\UpdateProduct.cshtml" />
+    <Content Include="Views\Purchase\Index.cshtml" />
+    <Content Include="Views\Purchase\InsertPurchaseProduct.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
