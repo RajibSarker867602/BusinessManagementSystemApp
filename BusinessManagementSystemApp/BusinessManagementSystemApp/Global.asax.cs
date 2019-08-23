@@ -20,6 +20,14 @@ namespace BusinessManagementSystemApp
             {
                 cfg.CreateMap<SupplierVM, Supplier>();
                 cfg.CreateMap<Supplier, SupplierVM>();
+                cfg.CreateMap<SalesSaveViewModel, SalesDetails>();
+                cfg.CreateMap<SalesDetails, SalesSaveViewModel>();
+                cfg.CreateMap<SalesSaveViewModel, CustomerModel>();
+                cfg.CreateMap<CustomerModel, SalesSaveViewModel>();
+                cfg.CreateMap<SalesSaveViewModel, Sale>();
+                cfg.CreateMap<Sale, SalesSaveViewModel>();
+                cfg.CreateMap<SalesSaveViewModel, Product>();
+                cfg.CreateMap<Product, SalesSaveViewModel>();
 
             });
         }

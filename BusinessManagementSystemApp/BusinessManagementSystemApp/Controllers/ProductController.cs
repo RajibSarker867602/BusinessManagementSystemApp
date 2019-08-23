@@ -1,4 +1,4 @@
-﻿using BusinessManagementSystemApp.BLL.BLL;
+﻿using BusinessManagementSystemApp.BLL.Manager;
 using BusinessManagementSystemApp.Models.Models;
 using System;
 using System.Collections.Generic;

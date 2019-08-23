@@ -7,13 +7,13 @@ namespace BusinessManagementSystemApp.DatabaseContext.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class ProductAndPurchase_Added : IMigrationMetadata
+    public sealed partial class addCustomer : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ProductAndPurchase_Added));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addCustomer));
         
         string IMigrationMetadata.Id
         {
-            get { return "201908230351272_ProductAndPurchase_Added"; }
+            get { return "201908231637151_addCustomer"; }
         }
         
         string IMigrationMetadata.Source

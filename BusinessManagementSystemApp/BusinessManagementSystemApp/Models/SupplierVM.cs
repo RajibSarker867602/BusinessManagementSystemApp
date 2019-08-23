@@ -32,6 +32,7 @@ namespace BusinessManagementSystemApp.Models
         public int ContactPerson { get; set; }
         [Display(Name = "Image")]
         public string Image { get; set; }
+
         public HttpPostedFileBase ImageFile { get; set; }
         public List<Supplier> Suppliers { get; set; }
     }

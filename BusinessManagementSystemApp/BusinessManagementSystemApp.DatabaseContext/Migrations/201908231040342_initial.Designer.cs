@@ -7,13 +7,13 @@ namespace BusinessManagementSystemApp.DatabaseContext.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Supplier_Added : IMigrationMetadata
+    public sealed partial class initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Supplier_Added));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201908220301087_Supplier_Added"; }
+            get { return "201908231040342_initial"; }
         }
         
         string IMigrationMetadata.Source

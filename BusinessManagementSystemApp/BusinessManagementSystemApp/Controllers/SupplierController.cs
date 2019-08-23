@@ -18,6 +18,7 @@ namespace BusinessManagementSystemApp.Controllers
         SupplierManager _supplierManager = new SupplierManager();
         SupplierVM _supplierVM = new SupplierVM();
         private Supplier _supplier = new Supplier();
+        string _fileName = string.Empty;
         [HttpGet]
         public ActionResult Add()
         {
@@ -26,19 +27,22 @@ namespace BusinessManagementSystemApp.Controllers
 
         // GET: Suppliers
         [HttpPost]
-        public ActionResult Add(SupplierVM supplierVM)
+        public ActionResult Add(SupplierVM supplierVM, HttpPostedFileBase image)
         {
+
             if (ModelState.IsValid)
             {
-                string fileName = Path.GetFileNameWithoutExtension(supplierVM.ImageFile.FileName);
-                supplierVM.Image = supplierVM.Name + fileName + System.IO.Path.GetExtension(supplierVM.ImageFile.FileName);
-                fileName = "~/images/SupplierImage/" + supplierVM.Name + fileName + System.IO.Path.GetExtension(supplierVM.ImageFile.FileName);
-                supplierVM.ImageFile.SaveAs(Server.MapPath(fileName));
+                _fileName = Path.GetFileNameWithoutExtension(image.FileName);
+                string extension = Path.GetExtension(image.FileName);
+                _fileName = supplierVM.Name + _fileName + DateTime.Now.ToString("yymmssfff") + extension;
+                supplierVM.Image = "~/images/SupplierImage/" + _fileName;
+
                 //Supplier supplier = new Supplier();
                 var supplier = Mapper.Map<Supplier>(supplierVM);
                 if (_supplierManager.Add(supplier))
                 {
-
+                    _fileName = Path.Combine(Server.MapPath("~/images/SupplierImage/"), _fileName);
+                    image.SaveAs(_fileName);
                     ViewBag.SuccessMsg = "Saved";
                     TempData["SuccessMessage"] = "Saved Successfully";
                     return RedirectToAction("Show");
@@ -66,16 +70,16 @@ namespace BusinessManagementSystemApp.Controllers
             return View(_supplierVM);
         }
         [HttpPost]
-        public ActionResult Delete(SupplierVM supplierVM)
+        public ActionResult Delete(SupplierVM supplierVM, HttpPostedFileBase image)
         {
-            ////string fileName = Path.GetFileNameWithoutExtension(supplierVM.ImageFile.FileName);
-            ////supplierVM.Image = supplierVM.Code + fileName + System.IO.Path.GetExtension(supplierVM.ImageFile.FileName);
-            ////fileName = "~/images/Supplier/" + supplierVM.Code + fileName + System.IO.Path.GetExtension(supplierVM.ImageFile.FileName);
-            ////supplierVM.ImageFile.SaveAs(Server.MapPath(fileName));
-            //Supplier supplier = new Supplier();
+            //fileName = Path.GetFileNameWithoutExtension(image.FileName);
+            //string extension = Path.GetExtension(image.FileName);
+            //fileName = supplierVM.Name + fileName + DateTime.Now.ToString("yymmssfff") + extension;
+            //supplierVM.Image = "~/images/SupplierImage/" + fileName;
             var supplier = Mapper.Map<Supplier>(supplierVM);
             if (ModelState.IsValid)
             {
+                //fileName = Path.Combine(Server.MapPath("~/images/SupplierImage/"), fileName);
                 if (_supplierManager.Delete(supplier))
                 {
                     ViewBag.SuccessMsg = "Deleted";
@@ -104,16 +108,16 @@ namespace BusinessManagementSystemApp.Controllers
             return View(_supplierVM);
         }
         [HttpPost]
-        public ActionResult Edit(SupplierVM supplierVM)
+        public ActionResult Edit(SupplierVM supplierVM, HttpPostedFileBase image)
         {
-            //string fileName = Path.GetFileNameWithoutExtension(supplierVM.ImageFile.FileName);
-            //supplierVM.Image = supplierVM.Code + fileName + System.IO.Path.GetExtension(supplierVM.ImageFile.FileName);
-            //fileName = "~/images/Supplier/" + supplierVM.Code + fileName + System.IO.Path.GetExtension(supplierVM.ImageFile.FileName);
-            //supplierVM.ImageFile.SaveAs(Server.MapPath(fileName));
-            
+            //fileName = Path.GetFileNameWithoutExtension(image.FileName);
+            //string extension = Path.GetExtension(image.FileName);
+            //fileName = supplierVM.Name + fileName + DateTime.Now.ToString("yymmssfff") + extension;
+            //supplierVM.Image = "~/images/SupplierImage/" + fileName;
             var supplier = Mapper.Map<Supplier>(supplierVM);
             if (ModelState.IsValid)
             {
+                //fileName = Path.Combine(Server.MapPath("~/images/SupplierImage/"), fileName);
                 if (_supplierManager.Update(supplier))
                 {
                     ViewBag.SuccessMsg = "Updated";

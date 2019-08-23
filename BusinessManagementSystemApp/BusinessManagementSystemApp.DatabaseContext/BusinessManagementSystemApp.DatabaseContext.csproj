@@ -49,31 +49,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseContext\BusinessManagementDbContext.cs" />
-    <Compile Include="Migrations\201908211445372_initial.cs" />
-    <Compile Include="Migrations\201908211445372_initial.Designer.cs">
-      <DependentUpon>201908211445372_initial.cs</DependentUpon>
+    <Compile Include="Migrations\201908231040342_initial.cs" />
+    <Compile Include="Migrations\201908231040342_initial.Designer.cs">
+      <DependentUpon>201908231040342_initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201908220301087_Supplier_Added.cs" />
-    <Compile Include="Migrations\201908220301087_Supplier_Added.Designer.cs">
-      <DependentUpon>201908220301087_Supplier_Added.cs</DependentUpon>
+    <Compile Include="Migrations\201908231637151_addCustomer.cs" />
+    <Compile Include="Migrations\201908231637151_addCustomer.Designer.cs">
+      <DependentUpon>201908231637151_addCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201908230351272_ProductAndPurchase_Added.cs" />
-    <Compile Include="Migrations\201908230351272_ProductAndPurchase_Added.Designer.cs">
-      <DependentUpon>201908230351272_ProductAndPurchase_Added.cs</DependentUpon>
+    <Compile Include="Migrations\201908231741331_initial1.cs" />
+    <Compile Include="Migrations\201908231741331_initial1.Designer.cs">
+      <DependentUpon>201908231741331_initial1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201908211445372_initial.resx">
-      <DependentUpon>201908211445372_initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201908220301087_Supplier_Added.resx">
-      <DependentUpon>201908220301087_Supplier_Added.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201908230351272_ProductAndPurchase_Added.resx">
-      <DependentUpon>201908230351272_ProductAndPurchase_Added.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -84,6 +73,17 @@
       <Project>{ccc57a5a-d9c1-4812-bb82-9d1f9daa7906}</Project>
       <Name>BusinessManagementSystemApp.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201908231040342_initial.resx">
+      <DependentUpon>201908231040342_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908231637151_addCustomer.resx">
+      <DependentUpon>201908231637151_addCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908231741331_initial1.resx">
+      <DependentUpon>201908231741331_initial1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

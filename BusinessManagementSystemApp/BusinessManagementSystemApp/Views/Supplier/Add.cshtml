@@ -1,18 +1,19 @@
 ﻿@model BusinessManagementSystemApp.Models.SupplierVM
 @{
-    ViewBag.Title = "Add";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/Dashboard.cshtml";
 }
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
   
 </head>
+
 <body>
     @if (ViewBag.SuccessMsg != null)
     {
         <h3 style="font-family:Arial, Helvetica, sans-serif;text-align:center;color:forestgreen">@ViewBag.SuccessMsg</h3>
     }
+
     @if (ViewBag.FailMsg != null)
     {
         <h3 style="font-family:Arial, Helvetica, sans-serif; text-align:center; color:red">@ViewBag.FailMsg </h3>
@@ -20,7 +21,15 @@
 
     <div class="container">
         <form class="form-horizontal form-label-left" novalidate action="" method="post" enctype="multipart/form-data">
-            <h3 class="section" style="text-align:center">Supplier Information Form</h3>
+            <div class="form-group row">
+                <a style="margin-top:2%" href="~/Supplier/Show" class="btn btn-info"><i class="glyphicon glyphicon-th-list"></i> Show Supplier List</a><hr />
+                <h3 class="text-info">Supplier Information Form</h3>
+                @if (ViewBag.Message != null)
+                {
+                    <h3 width="60%" align="center" class="label-danger">@ViewBag.Message</h3>
+
+                }
+            </div>
             <div class="form-row">
                 <div class="item form-group">
                     <label class="control-label col-md-2" for="Code">
@@ -58,7 +67,7 @@
             <div class="form-group">
                 @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
-                    <input type="file" name="ImageFile" accept=".jpg,.jpeg,.png" />
+                    <input type="file" name="image" accept=".jpg,.jpeg,.png" />
                 </div>
             </div>
             <div class="item form-group">
@@ -94,23 +103,14 @@
             <div class="item form-group">
                 <div class="col-md-10" style="text-align:center">
                     <button id="Save" type="submit" class="btn btn-success">Save</button>
-                    <a href="@Url.Action("Show","Supplier")" class="btn btn-primary">Cancel</a>
                 </div>
             </div>
 
         </form>
     </div>
     @section scripts{
-        <script src="~/Scripts/validator.js"></script>
-        <script src="~/Scripts/jquery-3.0.0.min.js"></script>
-        <script src="~/Scripts/bootstrap.bundle.min.js"></script>
-        <script src="~/Scripts/SweetAlert.js"></script>
-        <script src="~/Scripts/sweetalert.min.js"></script>
-        <link href="~/Styles/sweetalert.css" rel="stylesheet" />
         <script>
-
-            $("#Code").keyup(function () {
-                debugger
+            $("#Name").on('click', function () {
                 var supplierCode = $("#Code").val();
 
                 $.ajax({
@@ -120,7 +120,10 @@
                     success: function (response) {
                         if (response == true) {
                             swal("Supplier already exist!");
+                            $('#Save').attr("disabled", true);
                             return;
+                        } else {
+                            $('#Save').attr("disabled", false);
                         }
                     }
                 })

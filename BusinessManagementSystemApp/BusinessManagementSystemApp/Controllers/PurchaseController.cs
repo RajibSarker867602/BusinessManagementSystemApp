@@ -149,7 +149,8 @@ namespace BusinessManagementSystemApp.Controllers
         public ActionResult InsertPurchaseProduct()
         {
             var suppliers = _supplierManager.GetAll();
-            ViewBag.Suppliers = new SelectList(suppliers, "Id", "Name");
+            ViewBag.Suppliers = new SelectList(suppliers, "Id", "Na" +
+                "me");
             var products = _productManager.GetProducts();
             ViewBag.Products = new SelectList(products, "ProductId", "ProductName");
             return View();

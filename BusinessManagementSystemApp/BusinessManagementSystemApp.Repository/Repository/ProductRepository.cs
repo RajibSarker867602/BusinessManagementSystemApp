@@ -21,6 +21,7 @@ namespace BusinessManagementSystemApp.Repository.Repository
         {
             return db.Products.Include(c=>c.Category).Where(c => c.IsActive == "True").ToList();
         }
+
         public List<Product> SearchProducts(ProductViewModel productViewModel)
         {
             var products = db.Products.Include(c => c.Category).Where(c => c.ProductName.ToLower().Contains(productViewModel.SearchText.ToLower()) && c.IsActive == "True" || c.ProductCode.ToLower().Contains(productViewModel.SearchText.ToLower()) && c.IsActive == "True" || c.Category.CategoryName.ToLower().Contains(productViewModel.SearchText.ToLower()) && c.IsActive == "True").ToList();
@@ -67,6 +68,15 @@ namespace BusinessManagementSystemApp.Repository.Repository
                 }
             }
             return false;
+        }
+        public List<Product> GetProductsWithCatagory(Product product)
+        {
+            var products = db.Products.Include(c => c.Category).Where(c => c.Category.CategoryName.ToLower().Contains(product.CategoryName.ToLower()) || c.ProductName.ToLower().Contains(product.ProductName.ToLower())).ToList();
+            return products;
+        }
+        public List<Product> GetAll()
+        {
+            return db.Products.Include(p => p.Category).ToList();
         }
     }
 }

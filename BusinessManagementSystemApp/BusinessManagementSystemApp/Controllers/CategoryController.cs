@@ -1,4 +1,4 @@
-﻿using BusinessManagementSystemApp.BLL.BLL;
+﻿using BusinessManagementSystemApp.BLL.Manager;
 using BusinessManagementSystemApp.Models.Models;
 using System;
 using System.Collections.Generic;
@@ -47,6 +47,7 @@ namespace BusinessManagementSystemApp.Controllers
                     category.Date = categoryViewModel.Date;
                     if (_categoryManager.SaveCategory(category))
                     {
+                        TempData["SuccessMessage"] = "Data Saved SuccessFully!";
                         return RedirectToAction("Index");
                     }
                     else
@@ -56,6 +57,7 @@ namespace BusinessManagementSystemApp.Controllers
                 }
                 else
                 {
+                    TempData["SuccessDeleteMessage"] = "This category is already exist!";
                     ViewBag.Message = "This category is already exist!";
                 }
             }
@@ -108,6 +110,7 @@ namespace BusinessManagementSystemApp.Controllers
                     category.Date = categoryViewModel.Date;
                     if (_categoryManager.UpdateCategory(category))
                     {
+                        TempData["SuccessMessage"] = "Data Update SuccessFully!";
                         return RedirectToAction("Index");
                     }
                     else
@@ -185,6 +188,7 @@ namespace BusinessManagementSystemApp.Controllers
                 category.Date = categoryViewModel.Date;
                 if (_categoryManager.DeleteCategory(category))
                 {
+                    TempData["SuccessDeleteMessage"] = "Record Delete Successfully";
                     return RedirectToAction("Index");
                 }
             }

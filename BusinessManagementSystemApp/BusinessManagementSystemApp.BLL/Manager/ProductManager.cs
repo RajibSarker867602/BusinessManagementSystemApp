@@ -6,10 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessManagementSystemApp.BLL.BLL
+namespace BusinessManagementSystemApp.BLL.Manager
 {
     public class ProductManager
     {
+        StockRepository _stockRepository = new StockRepository();
         ProductRepository _productRepository = new ProductRepository();
         public bool SaveProduct(Product product)
         {
@@ -38,6 +39,22 @@ namespace BusinessManagementSystemApp.BLL.BLL
         public bool IsExistProduct(ProductViewModel productViewModel)
         {
             return _productRepository.IsExistProduct(productViewModel);
+        }
+        public PurchaseDetails PurchaseDetails(Product product, DateTime startDate, DateTime endDate)
+        {
+            return _stockRepository.PurchaseDetails(product, startDate, endDate);
+        }
+        public List<Product> GetProductsWithCatagory(Product product)
+        {
+            return _productRepository.GetProductsWithCatagory(product);
+        }
+        public PurchaseDetails AvailableQuantity(Product product)
+        {
+            return _stockRepository.AvailableQuantity(product);
+        }
+        public List<Product> GetAll()
+        {
+            return _productRepository.GetAll();
         }
     }
 }
